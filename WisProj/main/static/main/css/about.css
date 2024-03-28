@@ -1,0 +1,52 @@
+HotBratiki.css
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #252525;
+    color: rgba(252, 252, 252, 1);
+}
+
+.main-header {
+    background-color: rgba(0, 0, 0, 1);
+}
+
+.site-navigation-logo {
+    list-style-type: none;
+    display: inline-block;
+    width: 60px;
+    height: 82px;
+    margin-left: 165px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.site-navigation-item {
+    list-style-type: none;
+    display: inline-block;
+    font-size: 20px;
+    margin-right: 40px;
+}
+
+.site-navigation-item:last-child {
+    margin-right: 125px;
+}
+
+.site-navigation-link {
+    text-decoration: none;
+    font-family: 'Gilroy', sans-serif;
+    color: inherit;
+}
+
+.title {
+    font-family: 'Sprite Graffiti', sans-serif;
+    color: rgba(234, 90, 44, 1);
+}
+
+.about-us {
+    background-image: url('/images/bg_dec.png');
+    background-size: cover;
+}
+
+.main-footer {
+    background-color: rgba(0, 0, 0, 1);
+}
